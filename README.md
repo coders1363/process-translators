@@ -10,3 +10,4 @@ This form is such that the user enters the specifications and file for translati
 
 
 
+![tranlate2](https://github.com/user-attachments/assets/dbac380f-a5e1-471f-98a2-e7b9e8f433a0)
