@@ -1,3 +1,5 @@
+<?php
+
 try {
     // بررسی شرط
     if (@@rad_Checked == 1) {
