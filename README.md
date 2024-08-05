@@ -1,5 +1,6 @@
 # translatore
-![algorithm](tranlate1)
+
+![tranlate1](https://github.com/user-attachments/assets/a3d7d435-ceb8-4289-80a8-284a106d48c5)
 
 Algorithm practice
 
