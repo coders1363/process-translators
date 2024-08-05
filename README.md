@@ -1,5 +1,5 @@
 # translatore
-![algorithm](algorithm.png)
+![algorithm](tranlate1)
 
 Algorithm practice
 
