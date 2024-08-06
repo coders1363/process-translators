@@ -15,7 +15,7 @@ $('#grd_trans_details').onAddRow(function(aNewRow , aGrid , rowIndex){
 
 //.................................
 
-$(document).ready(function() {
+
   $('#txt_Final_payment').on('input', function() {
     if ($(this).val().trim() !== '') {
       $('#fil_user_boss_tahghigh').prop('disabled', false);
@@ -23,7 +23,6 @@ $(document).ready(function() {
       $('#fil_user_boss_tahghigh').prop('disabled', true);
     }
   });
-});
 
 
 // مدیریت نمایش لینک و فیلد ورودی بر اساس وجود URL مخفی
