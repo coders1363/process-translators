@@ -1,3 +1,4 @@
+<?php
 try {
     // دریافت مقدار شناسه درخواست
     $app_uid = @@APPLICATION;
