@@ -5,11 +5,10 @@
 try {
     $hide_source_app_uid = @@hide_source_app_uid; // دریافت مقدار شناسه درخواست
         
+        
+        
         // کوئری برای دریافت اطلاعات کاربر وارد شده
-        $queryMain = "SELECT `APP_UID`, `APP_NUMBER`,
-        `APP_STATUS`, `TXT_NAME`,
-        `TXT_EMAIL`, `TXT_MOBILE`,
-        `DRP_TRANSLATION_FIELD` FROM `pmt_translate`
+        $queryMain = "SELECT `APP_UID`, `APP_NUMBER`, `APP_STATUS`, `TXT_NAME`, `TXT_EMAIL`, `TXT_MOBILE`, `DRP_TRANSLATION_FIELD`, `DRP_TRANSLATION_FIELD_LABEL` FROM `pmt_information_user`
         WHERE APP_UID = '$hide_source_app_uid'";
         
         $resultMain = executeQuery($queryMain);
@@ -29,4 +28,5 @@ try {
         // استفاده از die برای مدیریت استثناها
         die("خطا: " . $e->getMessage());
     }
+    
     
